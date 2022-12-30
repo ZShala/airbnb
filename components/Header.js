@@ -104,7 +104,7 @@ export default function Header({placeholder}) {
             />
           </div>
           <div>
-            <button onClick={resetInput} className="flex-grow text-gray-500">
+            <button onClick={resetInput} className="flex-grow text-gray-500 mr-2">
               Cancel
             </button>
             <button onClick={search} className="flex-grow text-red-500">
